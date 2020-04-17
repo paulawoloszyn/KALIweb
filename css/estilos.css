@@ -139,4 +139,17 @@ header {
     .contacto .col a .fa-instagram {
       color: #e1306c; }
 
+/*----MEDIA QUERIES*/
+
+@media screen and (max-width: 800px) {
+    .servicios, .promociones {height: auto;}
+}
+
+@media screen and (max-width: 400px) {
+    header .display-4 {font-size: 35px;}
+    header .lead {font-size: 15px;}
+    header .btn {display: inline-block; width: 250px; overflow: hidden;}
+    header .btn {margin-bottom: 50px;}
+}
+
 /*# sourceMappingURL=estilos.css.map */
